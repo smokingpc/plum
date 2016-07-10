@@ -9,7 +9,6 @@ int _tmain(int argc, _TCHAR* argv[])
     unsigned int *err_data = 0;
 
     LoadLibrary(_T("plum.dll"));
-    //SetupPlum(true, true, false);
 
     err_data[1] = 13;
 
